@@ -3,6 +3,9 @@ package metier;
 import java.util.Date;
 import java.util.HashMap;
 
+
+//test Rudy admin
+
 public class Catalogue 
 {
 
