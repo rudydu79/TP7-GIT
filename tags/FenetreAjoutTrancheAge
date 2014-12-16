@@ -10,7 +10,7 @@ import javax.swing.JDialog;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
-
+// test eclipse
 import metier.TrancheAge;
 
 
@@ -33,7 +33,7 @@ public class FenetreAjoutTrancheAge extends JDialog implements ActionListener
 		this.contenu=this.getContentPane();
 		this.contenu.setLayout(null);
 
-		this.lblTitre = new JLabel("<html><u>Ajout d'une tranche d'âge</u></html>");
+		this.lblTitre = new JLabel("<html><u>Ajout d'une tranche d'Ã¢ge</u></html>");
 		this.lblTitre.setBounds(180, 20, 150, 20);
 
 		this.lblCode = new JLabel("Code : ");
@@ -90,7 +90,7 @@ public class FenetreAjoutTrancheAge extends JDialog implements ActionListener
 				else
 				{
 					laTranche= new TrancheAge (this.txtCode.getText(),Integer.parseInt(this.txtAgeMin.getText()),Integer.parseInt(this.txtAgeMax.getText()));
-					JOptionPane.showMessageDialog(null, "Tranche d'âge ajoutée.");
+					JOptionPane.showMessageDialog(null, "Tranche d'Ã¢ge ajoutÃ©e.");
 					this.lesTranches.add(laTranche);
 				}
 			}	
