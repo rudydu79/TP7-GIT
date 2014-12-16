@@ -1,0 +1,15 @@
+### Eclipse Workspace Patch 1.0
+#P TP7
+Index: src/metier/Categorie.java
+===================================================================
+--- src/metier/Categorie.java	(revision 9)
++++ src/metier/Categorie.java	(working copy)
+@@ -37,4 +37,8 @@
+ 		return this.lesJouets.size();
+ 	}
+ 	
++	public void testPatch()
++	{
++		
++	}
+ }
